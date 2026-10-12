@@ -307,7 +307,7 @@ const experiences = [
             </p>
 
             <!-- Ganti alamat email ini dengan email kamu -->
-            <a class="button-primary" href="mailto:emailkamu@example.com">
+            <a class="button-primary" href="mailto:didanagungs@gmail.com">
               Hubungi saya melalui email <span aria-hidden="true">↗</span>
             </a>
 
