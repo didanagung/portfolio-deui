@@ -13,7 +13,7 @@ const projects = [
   {
     number: '01',
     category: 'HEALTHCARE SYSTEM',
-    title: 'Hospital Management System',
+    title: 'SISTEM INFORMASI MANAJEMEN RUMAH SAKIT (SIMRS)',
     description:
       'Pengembangan dan pemeliharaan aplikasi manajemen rumah sakit, termasuk alur pelayanan, integrasi antarmodul, dan optimasi query database.',
     stack: ['Laravel', 'PHP', 'PostgreSQL', 'REST API'],
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     number: '02',
-    category: 'SYSTEM INTEGRATION',
+    category: 'SYSTEM INTEGRATION (BSRE)',
     title: 'Digital Signature Integration',
     description:
       'Integrasi layanan tanda tangan elektronik untuk mendukung proses penandatanganan dokumen digital dan pengelolaan hasil PDF.',
@@ -41,10 +41,16 @@ const projects = [
 
 const experiences = [
   {
-    role: 'Fullstack Web Developer',
-    period: 'Sesuaikan dengan periode kerja',
+    role: 'Fullstack Web Developer (PT Transindo Data Perkasa)',
+    period: 'Mei 2023 - Sekarang',
     description:
-      'Mengembangkan fitur aplikasi, mengintegrasikan layanan, menangani bug, serta menjaga performa dan keandalan sistem.',
+      'Mengembangkan aplikasi rumah sakit, saya berfokus di bidang logistik dan farmasi. Memperbaiki dan memelihara tentang stok rumah sakit, penjualan obat, penerimaan barang sampai dengan laporan untuk kebutuhan rumah sakit, bridging dengan pihak ketiga. Contohnya saya pernah bridging dengan BSRE (ttd elektronik) dari bssn, beberapa API dari BPJS, beberapa API dari SATUSEHAT kemenkes, dan dari E-Klaim kemenkes, dan pemeliharaan server.',
+  },
+  {
+    role: 'Fullstack Web Developer (PT Arka Mega Nusantara)',
+    period: 'Sep 2022 - Apr 2023',
+    description:
+      'Membuat landing page untuk client, membuat aplikasi point of sales, develop aplikasi e-print di linux server via vps, develop serta memelihara aplikasi ojs (open journal system) client',
   },
 ]
 </script>
@@ -56,7 +62,7 @@ const experiences = [
       <nav class="container-shell nav-shell">
         <a href="#home" class="brand" @click="menuOpen = false">
           <span class="brand-mark">&lt;/&gt;</span>
-          <span>portfolio<span class="text-mint">.dev</span></span>
+          <span>didan<span class="text-mint">.dev</span></span>
         </a>
 
         <button
@@ -131,7 +137,7 @@ const experiences = [
 
             <div class="code-content">
               <div><span class="line-number">01</span><span class="syntax-purple">const</span> developer = {</div>
-              <div><span class="line-number">02</span>&nbsp;&nbsp;name: <span class="syntax-green">'Fullstack Developer'</span>,</div>
+              <div><span class="line-number">02</span>&nbsp;&nbsp;name: <span class="syntax-green">'Didan Agung Sergia'</span>,</div>
               <div><span class="line-number">03</span>&nbsp;&nbsp;focus: [</div>
               <div><span class="line-number">04</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Backend'</span>,</div>
               <div><span class="line-number">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Scalable Systems'</span>,</div>
@@ -255,11 +261,11 @@ const experiences = [
             </article>
           </div>
 
-          <p class="project-disclaimer">
-            Catatan: project di atas merupakan contoh deskripsi awal berdasarkan
+          <!-- <p class="project-disclaimer">
+            Catatan: project di atas merupakan seba contoh deskripsi awal berdasarkan
             jenis pekerjaan. Sesuaikan dengan project nyata, kontribusi pribadi,
             dan informasi yang boleh dipublikasikan.
-          </p>
+          </p> -->
         </div>
       </section>
 
@@ -306,8 +312,8 @@ const experiences = [
             </a>
 
             <div class="contact-links">
-              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+              <a href="https://github.com/didanagung" target="_blank" rel="noreferrer">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/didan-agung" target="_blank" rel="noreferrer">LinkedIn ↗</a>
             </div>
           </div>
         </div>
@@ -316,7 +322,7 @@ const experiences = [
 
     <footer class="site-footer">
       <div class="container-shell footer-inner">
-        <span>© {{ new Date().getFullYear() }} · Portfolio Developer</span>
+        <span>© {{ new Date().getFullYear() }} · Didan Agung Sergia</span>
         <span>Dibuat dengan <span class="text-mint">Vue & Nuxt</span></span>
         <a href="#home">Kembali ke atas ↑</a>
       </div>
